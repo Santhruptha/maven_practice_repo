@@ -50,7 +50,7 @@ pipeline {
                  bat "mvn test"
             }
         }
-        stage('Test2') {
+        stage('Test3') {
             steps {
                 // Get some code from a GitHub repository
                 git 'https://github.com/Santhruptha/maven_practice_repo.git'
